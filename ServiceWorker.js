@@ -1,12 +1,12 @@
 const cacheName = "DefaultCompany-Kitchen-0.1.0";
 const contentToCache = [
     "./Build/build.loader.js",
-    "./Build/build.framework.js",
-    "./Build/build.data",
-    "./Build/build.wasm",
+    "./Build/build.framework.js.gz",
+    "./Build/build.data.gz",
+    "./Build/build.wasm.gz",
     "./TemplateData/style.css"
 
-];//
+];
 
 self.addEventListener('install', function (e) {
     console.log('[Service Worker] Install');
