@@ -6,7 +6,7 @@ const contentToCache = [
     "./Build/build.wasm",
     "./TemplateData/style.css"
 
-];
+];//
 
 self.addEventListener('install', function (e) {
     console.log('[Service Worker] Install');
